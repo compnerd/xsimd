@@ -29,6 +29,9 @@ jobs:
           enable_xtl_complex: 1
         gcc_9:
           gcc_version: '9'
+        gcc_9_fast:
+          gcc_version: '9'
+          enable_fast_math: 1
     pool:
       vmImage: ubuntu-16.04
     variables:
